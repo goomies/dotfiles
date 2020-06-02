@@ -1,5 +1,5 @@
 [alias]
-    pr 		        = pull --rebase
+    pr 		    = pull --rebase
     st              = status
     cim             = commit -v -m
     acim            = ! git add --all && git commit -v -m
@@ -27,4 +27,4 @@
     stnfm           = ! git -c core.fileMode=false st
 
 [push]
-	default = simple
+    default         = simple
