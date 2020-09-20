@@ -1,6 +1,9 @@
+[user]
+	email = 
+	username = 
 [alias]
-    pr 		    = pull --rebase
-    pu          = push
+    pu              = push
+    pr 		        = pull --rebase
     st              = status
     cim             = commit -v -m
     acim            = ! git add --all && git commit -v -m
