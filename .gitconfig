@@ -1,5 +1,6 @@
 [alias]
     pr 		    = pull --rebase
+    pu          = push
     st              = status
     cim             = commit -v -m
     acim            = ! git add --all && git commit -v -m
